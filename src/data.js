@@ -4,7 +4,7 @@ export const profile = {
     name: "Hetanshi Vora",
     title: "B.Tech Student & Developer",
     bio: "Food, Code, and Chaos. I thrive in the mess.",
-    profileImage: "/images/profile_hetanshi.jpeg",
+    profileImage: "/images/profile-placeholder.png",
     socials: {
         github: "https://github.com/hkv-31",
         linkedin: "https://in.linkedin.com/in/hetanshi-vora-student",
@@ -17,7 +17,7 @@ export const projects = [
     {
         id: 1,
         title: "NASA HERC 2025 Team Mushak",
-        image: "/images/nasa-herc.jpg",
+        image: "/images/portfolio-2.jpg",
         description: "STEM Engagement Lead",
         demoLink: "https://team-mushak-stem-project.web.app/",
         repoLink: "#",
@@ -27,7 +27,7 @@ export const projects = [
     {
         id: 2,
         title: "AI-Powered Marketing Agent",
-        image: "/images/trendly-ai.png",
+        image: "/images/profile-placeholder.png",
         description: "AI-driven marketing agent to generate brand-aligned social media content by analyzing real-time trends and brand context",
         demoLink: "/images/trendlyai.mp4",
         repoLink: "https://github.com/hkv-31/AI-Marketing-Agent",
@@ -37,7 +37,7 @@ export const projects = [
     {
         id: 3,
         title: "Particle Track Reconstruction with ML",
-        image: "/images/hadron-collider.webp",
+        image: "/images/Gemini_Generated_journal page style.png",
         description: "Reconstructed particle trajectories by clustering 3D detector hit coordinates using K-Means and DBSCAN",
         demoLink: "#",
         repoLink: "https://github.com/hkv-31/Particle-Track-Reconstruction",
@@ -55,10 +55,10 @@ export const skills = [
 ];
 
 export const galleryImages = [
-    { src: "/images/jns-grad.jpg", caption: "High School Graduation", rotate: "rotate-2" },
-    { src: "/images/gdg.jpg", caption: "Hackathon Vibes", rotate: "-rotate-1" },
-    { src: "/images/stem.jpg", caption: "STEM Engagement, Team Mushak", rotate: "-rotate-2" },
-    { src: "/images/atlas-inc.jpg", caption: "ATLAS INC", rotate: "rotate-3" },
+    { src: "/images/portfolio-2.jpg", caption: "Portfolio Work", rotate: "rotate-2" },
+    { src: "/images/profile-placeholder.png", caption: "Profile", rotate: "-rotate-1" },
+    { src: "/images/colour palette.jpg", caption: "Design Process", rotate: "-rotate-2" },
+    { src: "/images/Gemini_Generated_journal page style.png", caption: "Journaling", rotate: "rotate-3" },
 ];
 
 export const stickers = [
