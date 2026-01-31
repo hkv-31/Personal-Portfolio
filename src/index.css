@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Patrick+Hand&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-paper text-gray-800 font-body overflow-x-hidden;
+    /* Subtle dot pattern to enhance paper feel */
+    background-image: radial-gradient(#d4d1c9 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+}
+
+@layer components {
+  .polaroid {
+    @apply bg-white p-3 pb-10 shadow-lg transition-transform duration-300 ease-in-out border border-gray-100;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .sticker {
+    @apply absolute select-none pointer-events-none z-10 drop-shadow-md;
+    animation: float 6s ease-in-out infinite;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-5px) rotate(1deg);
+  }
+
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
